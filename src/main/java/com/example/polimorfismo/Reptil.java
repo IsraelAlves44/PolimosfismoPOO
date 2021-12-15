@@ -1,28 +1,22 @@
 package com.example.polimorfismo;
 
-public class Peixe extends Animal{
+public class Reptil extends Animal{
     private String corEscama;
-
-    // Metodos Abstratos
 
     @Override
     public void locomover() {
-        System.out.println("Nadando");
+        System.out.println("Rastejando");
     }
 
     @Override
     public void alimentar() {
-        System.out.println("Comendo substancias");
+        System.out.println("Comendo Vejetais");
     }
 
     @Override
     public void emitirSom() {
-        System.out.println("Peixe nao faz som");
+        System.out.println("Emitindo som de reptil");
     }
-    public void soltarBolha(){
-        System.out.println("Soltando Bolha");
-    }
-    // Metodos Especiais
 
     public String getCorEscama() {
         return corEscama;

@@ -7,15 +7,9 @@ public abstract class Animal {
 
     // Metodos Especiais
 
-    public void locomover(){
-
-    }
-    public void alimentar(){
-
-    }
-    public void emitirSom(){
-
-    }
+    public abstract void locomover();
+    public abstract void alimentar();
+    public abstract void emitirSom();
 
     // Metodos Especiais
 

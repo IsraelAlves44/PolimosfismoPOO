@@ -2,9 +2,11 @@ package com.example.polimorfismo;
 
 public class Principal {
     public static void main(String[] args) {
-        Peixe p = new Peixe();
+        Ave a1 = new Ave();
+        Mamifero m1 = new Mamifero();
+        Peixe p1 = new Peixe();
+        Reptil r1 = new Reptil();
 
-        p.setPeso(85.3f);
 
     }
 }

@@ -6,17 +6,17 @@ public class Ave extends Animal {
     // Sobreposicao
     @Override
     public void locomover() {
-        super.locomover();
+        System.out.println("Voando");
     }
 
     @Override
     public void alimentar() {
-        super.alimentar();
+        System.out.println("Comendo planta");
     }
 
     @Override
     public void emitirSom() {
-        super.emitirSom();
+        System.out.println("Som de ave");
     }
 
     public void fazerNinho(){

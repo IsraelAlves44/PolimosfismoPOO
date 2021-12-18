@@ -15,5 +15,7 @@ public class Principal {
         GoldFish g = new GoldFish();
         Arara a3 = new Arara();
 
+        c1.emitirSom();
+        c1.reagir("Ola");
     }
 }
